@@ -27,6 +27,30 @@ const testimonial6 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/Our%20Testimonials6.webp";
 const testimonial7 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/Our%20Testimonials7.webp";
+  const testimonial8 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/filipino.jpg";
+const testimonial9 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/german+couple+.jpg";
+const testimonial10 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/german+girl.jpg";
+const testimonial11 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/indian+family.jpg";
+const testimonial12 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/indian+family.jpg";
+const testimonial13 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA+27nov+thumbnail+copy.jpg";
+const testimonial14 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA+27nov+thumbnail+copy.jpg";
+const testimonial15 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA-2-29nov-thumbnail.jpg";
+const testimonial16 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/arabic.jpg";
+const testimonial17 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/chinies+2.jpg";
+const testimonial18 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/russian+girl.jpg";
+const testimonial19 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/russian+man+.jpg";
 
 function Index(props) {
   const { content } = props;
@@ -129,6 +153,114 @@ Excellent service with a nice and super friendly staff. The pilots were amazing!
       details: ` `,
       author: "Parag",
       videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/MB_Parag_V1.mp4",
+    },
+    {
+      id: 8,
+      thumb: testimonial8,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Filpino.mp4",
+    },
+    {
+      id: 9,
+      thumb: testimonial9,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/German+male.mp4",
+    },
+    {
+      id: 10,
+      thumb: testimonial10,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/German+Female.mp4",
+    },
+    {
+      id: 11,
+      thumb: testimonial11,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Indian+Female.mp4",
+    },
+    {
+      id: 12,
+      thumb: testimonial12,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Indian+Male.mp4",
+    },
+    {
+      id: 13,
+      thumb: testimonial13,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Italian+Female.mp4",
+    },
+    {
+      id: 14,
+      thumb: testimonial14,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Italian+Male.mp4",
+    },
+    {
+      id: 15,
+      thumb: testimonial15,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Arabic+Female.mp4",
+    },
+    {
+      id: 16,
+      thumb: testimonial16,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Arabic+Male.mp4",
+    },
+    {
+      id: 17,
+      thumb: testimonial17,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Chinese+Male+2.mp4",
+    },
+    {
+      id: 18,
+      thumb: testimonial18,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Russian+Female.mp4",
+    },
+    {
+      id: 19,
+      thumb: testimonial19,
+      date: "December 3, 2023",
+      title: "Must-Visit",
+      details: ` `,
+      author: "",
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Russian+male.mp4",
     },
   ];
   const sliderRef = useRef();
