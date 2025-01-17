@@ -16,6 +16,30 @@ const testimonial6 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/Our%20Testimonials6.webp";
 const testimonial7 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/Our%20Testimonials7.webp";
+const testimonial8 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/filipino.jpg";
+const testimonial9 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/german+couple+.jpg";
+const testimonial10 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/german+girl.jpg";
+const testimonial11 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/indian+family.jpg";
+const testimonial12 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/indian+family.jpg";
+const testimonial13 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA+27nov+thumbnail+copy.jpg";
+const testimonial14 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA+27nov+thumbnail+copy.jpg";
+const testimonial15 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA-2-29nov-thumbnail.jpg";
+const testimonial16 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/arabic.jpg";
+const testimonial17 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/chinies+2.jpg";
+const testimonial18 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/russian+girl.jpg";
+const testimonial19 =
+  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/russian+man+.jpg";
 const gallery5 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/Blog/blog%20featured%20image1.webp";
 // import ModalVideo from "react-modal-video";
@@ -90,6 +114,66 @@ function Index() {
       thumb: testimonial5,
       col_lg: 4,
       videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/MB_Parag_V1.mp4",
+    },
+    {
+      thumb: testimonial8,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Filpino.mp4",
+    },
+    {
+      thumb: testimonial9,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/German+male.mp4",
+    },
+    {
+      thumb: testimonial10,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/German+Female.mp4",
+    },
+    {
+      thumb: testimonial11,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Indian+Female.mp4",
+    },
+    {
+      thumb: testimonial12,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Indian+Male.mp4",
+    },
+    {
+      thumb: testimonial13,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Italian+Female.mp4",
+    },
+    {
+      thumb: testimonial14,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Italian+Male.mp4",
+    },
+    {
+      thumb: testimonial15,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Arabic+Female.mp4",
+    },
+    {
+      thumb: testimonial16,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Arabic+Male.mp4",
+    },
+    {
+      thumb: testimonial17,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Chinese+Male+2.mp4",
+    },
+    {
+      thumb: testimonial18,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Russian+Female.mp4",
+    },
+    {
+      thumb: testimonial19,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Russian+male.mp4",
     },
   ];
   return (
