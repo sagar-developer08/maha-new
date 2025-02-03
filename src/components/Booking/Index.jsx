@@ -559,11 +559,12 @@ function Index() {
         setFieldsAdults([{}]);
         setFieldsChilds([{}]);
         settotalResp({});
-        window.open(
-          `${import.meta.env.VITE_PAYMENTBASEURL}/?token=${
-            response?.data?.cart?.data?.cartId
-          }`,
-        );
+        // window.open(
+        //   `${import.meta.env.VITE_PAYMENTBASEURL}/?token=${
+        //     response?.data?.cart?.data?.cartId
+        //   }`,
+        // );
+        window.location.href = `${import.meta.env.VITE_PAYMENTBASEURL}/?token=${response?.data?.cart?.data?.cartId}`;
 
         // dispatch(setBooking(false));
         // location.reload();

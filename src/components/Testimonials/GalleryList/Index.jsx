@@ -16,6 +16,7 @@ const testimonial6 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/Our%20Testimonials6.webp";
 const testimonial7 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/Our%20Testimonials7.webp";
+  // 
 const testimonial8 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/filipino.jpg";
 const testimonial9 =
@@ -23,13 +24,13 @@ const testimonial9 =
 const testimonial10 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/german+girl.jpg";
 const testimonial11 =
-  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/indian+family.jpg";
+  "https://maha-prod.s3.us-east-1.amazonaws.com/indian_female.png";
 const testimonial12 =
-  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/indian+family.jpg";
+  "https://maha-prod.s3.us-east-1.amazonaws.com/indian_male.png";
 const testimonial13 =
-  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA+27nov+thumbnail+copy.jpg";
+  "https://maha-prod.s3.us-east-1.amazonaws.com/amazing_experience.png";
 const testimonial14 =
-  "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA+27nov+thumbnail+copy.jpg";
+  "https://maha-prod.s3.us-east-1.amazonaws.com/Breathtaking.png";
 const testimonial15 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/MBA-2-29nov-thumbnail.jpg";
 const testimonial16 =
@@ -40,8 +41,8 @@ const testimonial18 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/russian+girl.jpg";
 const testimonial19 =
   "https://d3gelo9cifr8ed.cloudfront.net/assets/New/Homepage/russian+man+.jpg";
-const gallery5 =
-  "https://d3gelo9cifr8ed.cloudfront.net/assets/Blog/blog%20featured%20image1.webp";
+// const gallery5 =
+//   "https://d3gelo9cifr8ed.cloudfront.net/assets/Blog/blog%20featured%20image1.webp";
 // import ModalVideo from "react-modal-video";
 import { IoIosCloseCircle } from "react-icons/io";
 import useOutsideAlerter from "src/Hook/useOutsideAlerter";
@@ -94,12 +95,8 @@ function Index() {
       col_lg: 4,
       videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/MB_Yara Family_V1.mp4",
     },
-    { thumb: gallery5, col_lg: 8, videoUrl: "" },
-    {
-      thumb: testimonial4,
-      col_lg: 4,
-      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/MB_Dellany_V1.mp4",
-    },
+    // { thumb: gallery5, col_lg: 8, videoUrl: "" },
+    
     {
       thumb: testimonial7,
       col_lg: 4,
@@ -174,6 +171,11 @@ function Index() {
       thumb: testimonial19,
       col_lg: 4,
       videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/Russian+male.mp4",
+    },
+    {
+      thumb: testimonial4,
+      col_lg: 4,
+      videoUrl: "https://d3gelo9cifr8ed.cloudfront.net/MB_Dellany_V1.mp4",
     },
   ];
   return (
